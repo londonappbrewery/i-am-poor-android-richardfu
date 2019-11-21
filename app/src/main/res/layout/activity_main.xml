@@ -12,17 +12,32 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_Iam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="I am Poor!"
+
+        android:layout_marginLeft="55sp"
+        android:layout_marginTop="60sp"
+        android:text="I am"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="65sp" />
 
+    <TextView
+        android:id="@+id/text_poor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="190sp"
+        android:layout_marginTop="60sp"
+        android:text="Poor"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_coal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         app:srcCompat="@drawable/coal" />
+
 </RelativeLayout>
